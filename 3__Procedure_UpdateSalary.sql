@@ -4,6 +4,9 @@ select employee_id, salary from employees where employee_id=100
 
 --Update Salary based on the input percentage for a specific Employee.
 
+
+
+--drop procedure if exists updateSalary
 create or replace procedure updateSalary(eid in number, percentage in number, updatedSalary out number)
 as
 salary number;
@@ -13,7 +16,7 @@ begin
 
     select salary into salary from system.employees where employee_id = eid;
     
-    newSalary := salary - ((salary*percentage)/100);
+    newSalary := salary + ((salary*percentage)/100);
     
     update system.employees set salary = newSalary where employee_id = eid;
 

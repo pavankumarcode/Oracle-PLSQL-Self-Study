@@ -1,3 +1,5 @@
+
+--drop procedure if exists find_largest;
 create or replace procedure find_largest(x in number, y in number, z out number)
 as
 
@@ -10,6 +12,7 @@ begin
 end;
 
 
+set serveroutput on
 declare
 a number := 100;
 b number := 20;

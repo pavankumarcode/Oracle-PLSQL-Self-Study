@@ -13,6 +13,9 @@ dbms_output.put_line('This is my first proceduce, variable value ['||var1 ||']')
 end;
 /
 
+
+
+set serveroutput on
 begin
 myfirstprocedure;
 end;

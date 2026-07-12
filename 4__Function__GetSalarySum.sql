@@ -22,7 +22,7 @@ declare
 
 totSal number;
 total number;
-lowthreshold number := 6;
+lowthreshold number := 6000;
 begin
 
     --totSal := getSalarySum;

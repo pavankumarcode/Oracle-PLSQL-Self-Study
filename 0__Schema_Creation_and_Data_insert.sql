@@ -1,4 +1,7 @@
 
+
+-- This is created from the Repository [https://github.com/oracle-samples/db-sample-schemas]
+
 rem ********************************************************************
 rem Create the REGIONS table to hold region information for locations
 rem HR.LOCATIONS table has a foreign key to this table.

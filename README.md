@@ -22,7 +22,7 @@ Step 2: Setting up the Data.
 After you have completed the Installation and set up, Run the SQL's to create the Sample tables and insert data into to play with.
 You can use this repo: https://github.com/oracle-samples/db-sample-schemas
 
-Or you can manually install using the file '1__Schema_Creation_and_Data_insert.sql' in this repository.
+Or you can manually install using the file '0__Schema_Creation_and_Data_insert.sql' in this repository. [https://github.com/pavankumarcode/Oracle-PLSQL-Self-Study/blob/main/0__Schema_Creation_and_Data_insert.sql]
 
 
 
